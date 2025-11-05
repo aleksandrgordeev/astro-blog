@@ -14,4 +14,8 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    url: /[full_slug]/
+    _enabled_editors:
+      - visual
+      - source
 timezone: Etc/UTC
