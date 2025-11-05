@@ -60,7 +60,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<main>
 			<article>
 				<div class="hero-image">
-                  <editable-image data-editable="image" data-prop-src="heroImage" data-prop-title="heroImageTitle">
+                  <editable-image data-prop-src="heroImage" data-prop-title="heroImageTitle">
 					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
                   </editable-image>
 				</div> 
